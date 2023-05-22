@@ -1,0 +1,83 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** Header **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: none;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 20px;
+}
+
+#nav-list a {
+  color: green;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background-color: white;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid green;
+}
+
+.navbar-header button.navbar-toggles {
+  clear: both;
+  margin-top: -20px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+  }
+
+}
+
+/********** small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {}
+
+h2 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.jumbotron {
+  background-color: #222;
+}
+
+h3 {
+  text-align: center;
+  font-size: 40px;
+}
